@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNav">
+   <ul class="navbar-nav ml-auto w-100 justify-content-end">
+     <li class="nav-item">
+       <a class="nav-link icon-option" routerLink="/dashboard" routerLinkActive="active">
+         <img src="assets/img/dashboard.svg" class="img-space" width="20" height="20">Dashboard</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link icon-option" routerLink="/course" routerLinkActive="active">
+         <img src="assets/img/course.svg" class="img-space" width="20" height="20">Courses</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link icon-option" routerLink="/teacher" routerLinkActive="active">
+         <img src="assets/img/teacher.svg" class="img-space" width="20" height="20">Teachers</a>
+     </li>
+   </ul>
+ </div>
+</nav>
+<router-outlet></router-outlet>
